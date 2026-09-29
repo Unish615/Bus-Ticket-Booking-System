@@ -26,11 +26,11 @@ const PassengerDetails = () => {
   const [passengers, setPassengers] = useState(() => {
     return selectedSeats.map((seat, index) => ({
       seatNumber: seat,
-      passengerName: index === 0 && user ? user.name : '',
-      age: '',
+      passengerName: index === 0 ? (user?.name || 'Unish Gautam') : '',
+      age: index === 0 ? '24' : '',
       gender: 'Male',
-      phone: index === 0 && user ? user.phone : '',
-      email: index === 0 && user ? user.email : '',
+      phone: index === 0 ? (user?.phone || '9841000001') : '',
+      email: index === 0 ? (user?.email || 'unish@gmail.com') : '',
     }));
   });
 
@@ -131,7 +131,7 @@ const PassengerDetails = () => {
                     <label className="form-label">Full Name *</label>
                     <input
                       type="text"
-                      placeholder="e.g. Ramesh KC"
+                      placeholder="e.g. Unish Gautam"
                       value={passenger.passengerName}
                       onChange={(e) => handleInputChange(index, 'passengerName', e.target.value)}
                       className="form-input"

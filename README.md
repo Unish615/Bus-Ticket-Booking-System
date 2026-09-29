@@ -191,7 +191,7 @@ All seed passwords are encrypted using BCrypt (`password123`):
 | **ADMIN** | Super Admin | `admin@yatrabus.com` | `password123` | `9800000001` |
 | **OPERATOR** | Sajha Yatayat Operations | `operator1@sajhayatayat.com` | `password123` | `9811111111` |
 | **OPERATOR** | Greenline Tours | `operator2@greenline.com` | `password123` | `9822222222` |
-| **USER** | Aarav Sharma | `aarav@gmail.com` | `password123` | `9841000001` |
+| **USER** | Unish Gautam | `unish@gmail.com` | `password123` | `9841000001` |
 | **USER** | Bipana Thapa | `bipana@gmail.com` | `password123` | `9841000002` |
 | **USER** | Chandra Gurung | `chandra@gmail.com` | `password123` | `9841000003` |
 | **USER** | Deepa Adhikari | `deepa@gmail.com` | `password123` | `9841000004` |

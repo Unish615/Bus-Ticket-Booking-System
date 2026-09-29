@@ -122,7 +122,7 @@ const Footer = () => {
             © {new Date().getFullYear()} YatraBus System. All rights reserved.
           </div>
           <div>
-            College Full-Stack Project • React JS + Spring Boot + MySQL
+            Developed by Unish Gautam • React JS + Spring Boot + MySQL
           </div>
         </div>
       </div>

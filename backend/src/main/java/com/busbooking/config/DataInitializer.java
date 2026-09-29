@@ -94,7 +94,7 @@ public class DataInitializer implements CommandLineRunner {
         ));
 
         // 4. 5 Normal Users
-        User user1 = userRepository.save(new User("Aarav Sharma", "aarav@gmail.com", "9841000001", encodedPassword, userRole));
+        User user1 = userRepository.save(new User("Unish Gautam", "unish@gmail.com", "9841000001", encodedPassword, userRole));
         User user2 = userRepository.save(new User("Bipana Thapa", "bipana@gmail.com", "9841000002", encodedPassword, userRole));
         User user3 = userRepository.save(new User("Chandra Gurung", "chandra@gmail.com", "9841000003", encodedPassword, userRole));
         User user4 = userRepository.save(new User("Deepa Adhikari", "deepa@gmail.com", "9841000004", encodedPassword, userRole));
